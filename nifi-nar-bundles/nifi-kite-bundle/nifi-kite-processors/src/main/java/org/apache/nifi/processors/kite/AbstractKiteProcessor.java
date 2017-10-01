@@ -50,7 +50,7 @@ abstract class AbstractKiteProcessor extends AbstractProcessor {
 
     protected static final PropertyDescriptor CONF_XML_FILES
             = new PropertyDescriptor.Builder()
-            .name("hadoop-configuration-resources")
+            .name("Hadoop configuration files")
             .displayName("Hadoop configuration Resources")
             .description("A file or comma separated list of files which contains the Hadoop file system configuration. Without this, Hadoop "
                     + "will search the classpath for a 'core-site.xml' and 'hdfs-site.xml' file or will revert to a default configuration.")
